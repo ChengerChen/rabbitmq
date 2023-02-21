@@ -1,0 +1,1 @@
+select * from infisa_health_plan where version = :version and version = '${version}'
