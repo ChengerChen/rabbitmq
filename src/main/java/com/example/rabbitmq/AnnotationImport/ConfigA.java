@@ -20,7 +20,6 @@ import java.time.LocalDateTime;
 public class ConfigA {
     @Bean
     @ConditionalOnMissingBean(ServiceInterface.class)
-
     public ServiceInterface getService() {
         return new ServiceA();
     }
